@@ -43,7 +43,7 @@ services:
       - db
 
   frontend:
-    image: shaikmustafa/arshad:frontend
+    image:  gujja139/python-project:frontend
     deploy:
       replicas: 1
     ports:
